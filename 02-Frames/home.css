@@ -1,12 +1,15 @@
 .nav-bar-content{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkkhaki;
 }
 
-.nav-bar h1 {
-    width: min-content;
+h1 {
+    width: fit-content;
     color: green;
 }
 
-.nav-bar .nav-bar-buttons {
-    width: min-content;
+.nav-bar-buttons {
+    width: fit-content;
 }
