@@ -1,0 +1,12 @@
+.nav-bar-content{
+    display: flex;
+}
+
+.nav-bar h1 {
+    width: min-content;
+    color: green;
+}
+
+.nav-bar .nav-bar-buttons {
+    width: min-content;
+}
