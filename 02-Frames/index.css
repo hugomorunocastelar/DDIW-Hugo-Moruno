@@ -1,3 +1,11 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .cabecero {
-    background-color: darkkhaki;
+    background-color: rgb(180, 180, 180);
+}
+
+.frame-bodyeq{
+    width: 1000px;
 }
