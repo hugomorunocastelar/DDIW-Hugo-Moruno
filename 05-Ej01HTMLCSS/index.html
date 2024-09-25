@@ -4,42 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        @keyframes girar{
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
 </head>
-<body style="
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between;
-    ">
-    <aside style="
-        width: 17%; 
-        height: 95vh; 
-        background-color:lightblue;
-        display: flex; 
-        align-items: center;
-        justify-content: center;
-        font-size: 40px;
-        writing-mode: vertical-lr;
-        text-orientation: upright;
-    ">left sidebar</aside>
-    <section style=" 
-        width: 65% ; 
-        height: 95vh; 
-        background-color:lightgreen;
-        display: flex; 
-        align-items: center;
-        justify-content: center;
-        font-size: 60px;
-    ">main</section>
-    <aside style="
-        width: 17%; 
-        height: 95vh; 
-        background-color: lightcoral;
-        display: flex; 
-        align-items: center;
-        justify-content: center;
-        font-size: 40px;
-        writing-mode: vertical-rl;
-        text-orientation: mixed;
-    ">right sidebar</aside>
+<body>
+    <table>
+        <td style="
+            border: white solid 10px;
+            width: 17vw; 
+            height: 95vh; 
+            text-align: center; 
+            background-color:lightblue;
+            font-size: 40px;
+            writing-mode: vertical-lr;
+            animation: girar 2s linear infinite;
+        ">left sidebar</div>
+        <td style=" 
+            border: white solid 10px;
+            width: 65vw; 
+            height: 95vh;
+            text-align: center; 
+            background-color:lightgreen;
+            font-size: 60px;
+        ">main</div>
+        <td style="
+        border: white solid 10px;
+            width: 17vw; 
+            height: 95vh; 
+            text-align: center;
+            background-color: lightcoral;
+            font-size: 40px;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+        ">right sidebar</div>
+    </table>
 </body>
 </html>
