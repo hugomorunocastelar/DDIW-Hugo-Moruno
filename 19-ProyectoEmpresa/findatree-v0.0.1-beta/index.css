@@ -1,0 +1,120 @@
+@import url(./color.css);
+
+html
+{
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    margin: 0px;
+    height: inherit;
+    text-align: center;
+    background-color: var(--color5);
+}
+nav
+{
+    color: var(--color1);
+    background-color: var(--color3);
+}
+nav .navContent
+{
+    width: 50%;
+    height: 30px;
+    padding: 20px; 
+    margin: 0 auto;
+}
+nav h1
+{
+    width: fit-content;
+    margin: 0px;
+    float: left;
+}
+nav .navButtons
+{
+    width: fit-content;
+    float: right;
+}
+nav button
+{
+    margin: 0px 10px;
+    padding: 5px 10px;
+    background: none;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+    border: solid 2px var(--color1);
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+main
+{
+    height: 100%;
+}
+aside
+{
+    width: 10%;
+    height: 100%;
+    padding: 5px;
+    background-color: var(--color2);
+}
+aside button
+{
+    width: 100%;
+    height: 30px;
+    margin: 5px 0px;
+    float: left;
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    border: solid 2px var(--color1);
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+aside span
+{
+    font-size: 12px !important;
+    float: right;
+}
+frame
+{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #000;
+}
+section
+{
+    height: 300px;
+    width: 200px;
+    background-color: var(--color2);
+    border-radius: 10px;
+}
+footer
+{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: fit-content;
+    color: wheat;
+    background-color: var(--color4);
+}
+footer a
+{
+    text-decoration: none;
+    color: white;
+}
+footer .copy
+{
+    padding-top: 5px;
+    margin: 15px;
+    width: fit-content;
+    float: left;
+}
+footer .license
+{
+    margin: 15px;
+    width: fit-content;
+    float: right;
+}
