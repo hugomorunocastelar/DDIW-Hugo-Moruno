@@ -3,7 +3,7 @@
 html
 {
     height: 100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 body
 {
@@ -16,28 +16,30 @@ nav
 {
     color: var(--color1);
     background-color: var(--color3);
+    height: 70px;
 }
 nav .navContent
 {
     width: 50%;
-    height: 30px;
-    padding: 20px; 
+    height: 50px;
     margin: 0 auto;
 }
 nav h1
 {
     width: fit-content;
-    margin: 0px;
-    float: left;
+    height: 50px;
+    margin: 20px;
+    float: inline-start;
 }
 nav .navButtons
 {
     width: fit-content;
+    height: 50px;
     float: right;
 }
 nav button
 {
-    margin: 0px 10px;
+    margin: 20px;
     padding: 5px 10px;
     background: none;
     color: white;
@@ -45,8 +47,15 @@ nav button
     cursor: pointer;
     border: solid 2px var(--color1);
     border-radius: 10px;
-    font-weight: bold;
+    font: inherit;
     text-transform: uppercase;
+}
+nav img
+{
+    float: left; 
+    border-radius: 50%; 
+    height: 50px;
+    margin: 10px;
 }
 main
 {
@@ -71,7 +80,14 @@ aside button
     cursor: pointer;
     border: solid 2px var(--color1);
     border-radius: 10px;
+    font-size: 16px;
     text-transform: uppercase;
+    transition: 1s;
+}
+aside button:hover
+{
+    transition: ease 1s;
+    transform: translateX(20%);    
 }
 aside span
 {
