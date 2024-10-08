@@ -1,0 +1,72 @@
+html
+{
+    height: 98%;
+    width: 99%;
+}
+body
+{
+    height: 100%;
+    width: 100%;
+}
+p
+{
+    margin: 0px;
+}
+header
+{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border: 3px solid #000;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+nav
+{
+    background-color: lightblue;
+    padding: 0px 0px 30px 0px;
+    text-align: center;
+    border: 3px solid #000;
+    margin: 10px;
+}
+main
+{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,255,1) 100%); 
+    border: 3px solid #00F;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+section
+{
+    width: fit-content;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,175,125,1) 0%, rgba(175,100,100,1) 100%); 
+    border: 3px solid #000;
+}
+section img
+{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+section p 
+{
+    text-align: center;
+    padding: 2px;
+}
+footer
+{
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid #000;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
